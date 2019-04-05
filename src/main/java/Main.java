@@ -11,7 +11,7 @@ public class Main {
         String s = args[0];
 
 
-        System.setProperty("webdriver.chrome.driver","../src/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/lohith.tummala/Desktop/chromedriver");
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://google.com");
